@@ -1,7 +1,7 @@
 # zTT for Nvidia Jetson tx2
 ## Video rendering
 * Requires OPEN CV2 with python 3.5
-* It need root-privilege to acces "sysfs" in the linux kernel.
+* It needs root-privilege to acces "sysfs" in the linux kernel.
 
 ## YOLOv3
 * We refered YOLOv3 implementation [1] and modifed it to measure and record the FPS.
