@@ -9,7 +9,7 @@
 * tensorflow 1.10.0
 
 
-## Hyperparameter for Learning
+## Hyperparameter for learning
 | Hyperparameter  | Value |
 | ------------- | ------------- |
 | Learning rate  | 0.05  |
