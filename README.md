@@ -22,5 +22,5 @@ Each subdirectory contains the corresponding source codes and instructions to re
 ### Jetson TX2
 
 ### Pixel 3a
-* android_zTT.py  -  client code
-* agent_pixel.py  -  agent server code
+* client.py  -  client code
+* agent.py  -  agent server code
