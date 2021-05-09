@@ -8,14 +8,16 @@ nanoseconds_per_second = 1e9
 
 class SurfaceFlingerFPS():
 	
-	def __init__(self, view):
+	def __init__(self, view, ip):
 		self.view = view
+		self.ip = ip
 		self.refresh_period, self.base_timestamp, self.timestamps = self.__init_frame_data__(self.view)
 		self.recent_timestamps = self.timestamps[-2]
 		self.fps = 0
+		
 
 	def __init_frame_data__(self, view):
-		out = subprocess.check_output(['adb', 'shell', 'dumpsys', 'SurfaceFlinger', '--latency-clear', view])
+		out = subprocess.check_output(['adb', '-s', self.ip, 'shell', 'dumpsys', 'SurfaceFlinger', '--latency-clear', view])
 		out = out.decode('utf-8')
 		if out.strip() != '':
 			raise RuntimeError("Not supported.")
@@ -34,7 +36,7 @@ class SurfaceFlingerFPS():
 
 
 	def __frame_data__(self, view):
-		out = subprocess.check_output(['adb', 'shell', 'dumpsys', 'SurfaceFlinger', '--latency', view])
+		out = subprocess.check_output(['adb', '-s', self.ip, 'shell', 'dumpsys', 'SurfaceFlinger', '--latency', view])
 		out = out.decode('utf-8')
 		results = out.splitlines()
 		refresh_period = int(results[0]) / nanoseconds_per_second
