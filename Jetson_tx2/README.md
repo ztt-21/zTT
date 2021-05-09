@@ -59,6 +59,9 @@ $ python3 client.py --IP_ADDR 192.168.1.7 --app YOLO --exp_time 2000 --target_fp
 ```bash
 $ python3 client.py --IP_ADDR 192.168.1.7 --app aquarium --exp_time 2000 --target_fps 30
 ```
+### 3. After connected
+* You can see real-time graphs at the server-side.
+* After training, we make sure that the zTT agent successfully meet target_fps and prevent overheating.
 
 # References
 [1] https://pjreddie.com/darknet/yolo/
