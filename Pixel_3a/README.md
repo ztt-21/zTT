@@ -42,6 +42,7 @@ Run *agent.py.*
 ```bash
 $ python agent.py
 ```
+Okay, now agent server is waiting for client!
 
 ### 3. Client device
 Run *client.py.*
