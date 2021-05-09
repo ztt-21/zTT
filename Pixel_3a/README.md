@@ -14,12 +14,10 @@ https://play.google.com/store/apps/details?id=com.ttxapps.wifiadb&hl=ko&gl=US
 
 #### 2. Client & Agent server device
 
-Clone this repository or download zip file.
-
 Install python dependencies on a client device.
 
 ```bash
-$ cd Pixel_3a
+$ cd zTT/Pixel_3a
 $ pip install -r requirements.txt
 ```
 
