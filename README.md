@@ -6,7 +6,7 @@ For running zTT on Pixel 3a, you need *a client device* (e.g., labtop or desktop
 ## Install dependencies
 
 #### 1. Pixel 3a
-Install WiFi-adb application from below link.
+Install WiFi-adb application from below link. <br>
 https://play.google.com/store/apps/details?id=com.ttxapps.wifiadb&hl=ko&gl=US
 
 #### 2. Client & Agent server device
