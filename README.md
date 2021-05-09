@@ -1,7 +1,5 @@
 # zTT: Learning-based DVFS with Zero Thermal Throttling for Mobile Devices \[*MobiSys'21*\] - Artifact Evaluation
 
-## Description
-
 This repository contains all the artifacts necessary to run zTT on NVIDIA Jetson TX2 & Pixel 3a.
 Each subdirectory contains the corresponding source codes and instructions to repeat the results of the paper.
 
@@ -19,3 +17,10 @@ Each subdirectory contains the corresponding source codes and instructions to re
 ### Client & Agent server
 * Ubuntu 18.04
 
+## Contents
+
+### Jetson TX2
+
+### Pixel 3a
+* android_zTT.py  -  client code
+* agent_pixel.py  -  agent server code
