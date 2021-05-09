@@ -21,7 +21,8 @@ $ python agent.py
 #### Ok, the agent is watiing for connections ..
 ### 2. Client device (Jetson tx2)
 * It needs root-privilege to acces "sysfs" in the linux kernel.
-Run *client.py.*
+Let's run *client.py.*
+
 
 #### Usage of client.py
 ```
@@ -41,7 +42,7 @@ optional arguments:
 #### Video rendering
 * Requires OPEN CV2 with python 3.5
 * We also provide "video.mp4" file through Googledrive link. It should be under the JETSON project directory.
-* e.g.,
+* Example
 ```bash
 $ python3 client.py --IP_ADDR 192.168.1.7 --app rendering --file video.mp4 --exp_time 2000 --target_fps 30
 ```
@@ -49,13 +50,13 @@ $ python3 client.py --IP_ADDR 192.168.1.7 --app rendering --file video.mp4 --exp
 * We refered YOLOv3 implementation [1] and modifed it to measure and record the FPS.
 * We provide executable files.
 * We also provide "test" file to excute YOLOv3, you need a "traffic.mp4"(Packaged in the .zip file) under the JETSON project directory.
-* e.g.,
+* Example
 ```bash
 $ python3 client.py --IP_ADDR 192.168.1.7 --app YOLO --exp_time 2000 --target_fps 15
 ```
 #### Chrome browser
 * We provide chromedriver to measure Frame rate from Chrome browser. 
-* e.g.,
+* Example
 ```bash
 $ python3 client.py --IP_ADDR 192.168.1.7 --app aquarium --exp_time 2000 --target_fps 30
 ```
