@@ -1,5 +1,4 @@
 
-Uploading zttdemo.mp4…
 
 # zTT: Learning-based DVFS with Zero Thermal Throttling for Mobile Devices \[*MobiSys'21*\] - Artifact Evaluation
 
@@ -45,3 +44,5 @@ such as mobility and holding methods, but conventional implementations are not a
 * agent.py  -  Agent server code
 * power_on.py - Script to turn on Pixel 3a through Monsoon power monitor (Run on client)
 * power_off.py - Script to turn off Pixel 3a through Monsoon power monitor (Run on client)
+
+https://user-images.githubusercontent.com/76143887/117581865-198fb500-b13a-11eb-9536-f4f631422cda.mp4
