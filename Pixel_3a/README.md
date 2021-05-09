@@ -1,4 +1,4 @@
-# Description for Pixel 3a
+# zTT for Pixel 3a
 
 For running zTT on Pixel 3a, you need *a client device* (e.g., labtop or desktop) which is connected to Monsoon power monitor for measuring power consumption of Pixel 3a and also you need *a device for zTT agent server*.
 
