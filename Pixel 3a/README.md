@@ -23,6 +23,7 @@ $ pip install -r requirements.txt
 ## Instruction
 
 Please turn on Monsoon power monitor first.
+
 Then, run *power_on.py* to turn on Pixel 3a.
 
 ```bash
