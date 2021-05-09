@@ -6,7 +6,7 @@ To connect monsoon power monitor and your Pixel 3a device, you need to disassemb
 Then, remove the battery and re-connect the battery logic board.
 After that, connect monsoon power monitor and Pixel 3a with battery connection cables as shown in below picture.
 
-The client device and Pixel 3a communiate each other via adb through WiFi connection.
+During running zTT, the client device and Pixel 3a communiate each other via adb through WiFi connection.
 
 **Note that, the client device, the agent server device and Pixel 3a should connected to _same WiFi AP_.**
 
