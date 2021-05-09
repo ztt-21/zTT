@@ -32,7 +32,6 @@ optional arguments:
   --exp_time EXP_TIME   Set time for experiment
   --target_fps TARGET_FPS
                         Set target_fps [e.g., 30]
-
 ```
 
 #### Video rendering
