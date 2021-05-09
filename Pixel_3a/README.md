@@ -8,7 +8,6 @@ The client device and Pixel 3a communiate each other via adb through WiFi connec
 
 **Note that, the client device, the agent server device and Pixel 3a should connected to _same WiFi AP_.**
 
-### Testbed example
 <img src="pixel3a_testbed.jpg" width="300" height="300">
 
 ## Install dependencies
