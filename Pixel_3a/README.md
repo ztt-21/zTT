@@ -50,6 +50,7 @@ Okay, now agent server is waiting for client!
 Run *client.py.*
 
 #### Usage of client.py
+
 ```
 usage: client.py [-h] --app {showroom,skype,call} [--exp_time EXP_TIME]
                       --server_ip SERVER_IP [--server_port SERVER_PORT]
@@ -65,9 +66,24 @@ optional arguments:
   --pixel_ip PIXEL_IP           Pixel device IP for connecting device via adb
 ```
 
-#### Example
+#### Available applications
+
+* Showroom VR
+##### Example
 ```bash
 $ python client.py --app showroom --exp_time 500 --server_ip 192.168.1.24 --target_fps 60 --pixel_ip 192.168.1.35
+```
+
+* Skype
+##### Example
+```bash
+$ python client.py --app skype --exp_time 500 --server_ip 192.168.1.24 --target_fps 60 --pixel_ip 192.168.1.35
+```
+
+* Call of duty 4
+##### Example
+```bash
+$ python client.py --app call --exp_time 500 --server_ip 192.168.1.24 --target_fps 60 --pixel_ip 192.168.1.35
 ```
 
 
