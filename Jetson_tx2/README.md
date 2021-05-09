@@ -18,7 +18,7 @@ Run *agent.py.*
 ```bash
 $ python agent.py
 ```
-# Ok, agent is watiing for response from client
+#### Ok, agent is watiing for response from client
 ### 2. Client device
 * It needs root-privilege to acces "sysfs" in the linux kernel.
 Run *client.py.*
