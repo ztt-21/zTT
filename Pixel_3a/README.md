@@ -19,7 +19,7 @@ Clone this repository or download zip file.
 Install python dependencies on a client device.
 
 ```bash
-$ cd Pixel 3a
+$ cd Pixel_3a
 $ pip install -r requirements.txt
 ```
 
