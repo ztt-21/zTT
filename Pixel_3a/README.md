@@ -5,7 +5,7 @@ For running zTT on Pixel 3a, you need *a client device* (e.g., labtop or desktop
 To connect monsoon power monitor and your Pixel 3a device, you need to disassemble Pixel 3a at first.
 Then, remove the battery and re-connect the battery logic board.
 After that, connect monsoon power monitor and Pixel 3a with battery connection cables as shown in below picture.
-The detailed monsoon power monitor setup is available at ![here](http://msoon.github.io/powermonitor/PowerTool/doc/Power%20Monitor%20Manual.pdf)
+The detailed monsoon power monitor setup is available at [here](http://msoon.github.io/powermonitor/PowerTool/doc/Power%20Monitor%20Manual.pdf)
 
 During running zTT, the client device and Pixel 3a communiate each other via adb through WiFi connection.
 
