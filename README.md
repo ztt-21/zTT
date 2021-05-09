@@ -4,6 +4,8 @@ This repository contains all the artifacts necessary to run zTT on NVIDIA Jetson
 
 Each subdirectory contains the corresponding source codes and instructions to repeat the results of the paper.
 
+Please follow the detailed instructions in each subdirectory.
+
 ## Requirements
 
 ### Jetson TX 2 
