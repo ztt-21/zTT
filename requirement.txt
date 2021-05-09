@@ -9,6 +9,7 @@ Keras==2.2.0
 Keras-Applications==1.0.2
 Keras-Preprocessing==1.0.1
 kiwisolver==1.1.0
+monsoon==0.1.88
 Markdown==2.6.11
 matplotlib==3.0.3
 numpy==1.14.2
