@@ -26,3 +26,5 @@ Each subdirectory contains the corresponding source codes and instructions to re
 ### Pixel 3a
 * client.py  -  Client code
 * agent.py  -  Agent server code
+* power_on.py - Script to turn on Pixel 3a through Monsoon power monitor
+* power_off.py - Script to turn off Pixel 3a through Monsoon power monitor
