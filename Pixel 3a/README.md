@@ -10,13 +10,24 @@ Install WiFi-adb application from below link. <br>
 https://play.google.com/store/apps/details?id=com.ttxapps.wifiadb&hl=ko&gl=US
 
 #### 2. Client & Agent server device
+
+Clone this repository or download zip file.
+
 Install python dependencies on a client device.
 
 ```bash
+$ cd Pixel 3a
 $ pip install -r requirements.txt
 ```
 
 ## Instruction
+
+Please turn on Monsoon power monitor first.
+Then, run *power_on.py* to turn on Pixel 3a.
+
+```bash
+$ python power_on.py
+```
 
 #### 1. Pixel 3a
  1. Start WiFi-adb and **check your IP address**.
