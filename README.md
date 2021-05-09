@@ -8,6 +8,8 @@ Each subdirectory contains the corresponding source codes and instructions to re
 
 Please follow the detailed instructions in each subdirectory.
 
+## Demo Video
+![](zttdemo.gif)
 
 ## Paper Abstract
 DVFS (dynamic voltage and frequency scaling) is a systemlevel technique that adjusts voltage and frequency levels of CPU/GPU at runtime to balance energy efficiency and high performance. DVFS has been studied for many years, but it is considered still challenging to realize a DVFS that performs ideally for mobile devices for two main reasons: i) an optimal power budget distribution between CPU and GPU in a power-constrained platform can only be defined by the application performance, but conventional DVFS implementations are mostly application-agnostic; ii) mobile platforms experience dynamic thermal environments for many reasons
@@ -42,7 +44,4 @@ such as mobility and holding methods, but conventional implementations are not a
 * power_on.py - Script to turn on Pixel 3a through Monsoon power monitor (Run on client)
 * power_off.py - Script to turn off Pixel 3a through Monsoon power monitor (Run on client)
 
-## Demo Video
-![](zttdemo.gif)
 
-https://user-images.githubusercontent.com/76143887/117581865-198fb500-b13a-11eb-9536-f4f631422cda.mp4
