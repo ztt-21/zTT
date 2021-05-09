@@ -46,9 +46,9 @@ $ python agent.py
 ```
 
 ### 3. Client device
-Run *android_zTT.py.*
+Run *client.py.*
 
-#### Usage of android_zTT.py
+#### Usage of client.py
 ```
 usage: client.py [-h] --app {showroom,skype,call} [--exp_time EXP_TIME]
                       --server_ip SERVER_IP [--server_port SERVER_PORT]
