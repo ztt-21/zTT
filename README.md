@@ -2,8 +2,20 @@
 
 ## Description
 
-zTT is a learning-based DVFS algorithm for mobile devices to achieve zero thermal throttling.
-In this paper, zTT is evaluated on NVIDIA Jetson TX2 and Pixel 3a.
+This repository contains all the artifacts necessary to run zTT on NVIDIA Jetson TX2 & Pixel 3a.
+Each subdirectory contains the corresponding source codes and instructions to repeat the results of the paper.
 
+## Requirements
 
+### Jetson TX 2 
+* Jetpack 3.3
+* CUDA 9.0
+* cuDNN 7.1.5
+* OpenCV 3.4.2
+
+### Pixel 3a
+* Android 9 (Kernel version 4.9)
+
+### Client & Agent server
+* Ubuntu 18.04
 
