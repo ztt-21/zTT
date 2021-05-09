@@ -1,4 +1,5 @@
 # zTT for Nvidia Jetson tx2
+<img src="jetson_testbed.jpg" width=300 height=300>
 
 ## Install dependencies
 
