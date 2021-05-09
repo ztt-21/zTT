@@ -50,7 +50,7 @@ Run *android_zTT.py.*
 
 ##### Usage of android_zTT.py
 ```
-usage: android_zTT.py [-h] --app {showroom,skype,call} [--exp_time EXP_TIME]
+usage: client.py [-h] --app {showroom,skype,call} [--exp_time EXP_TIME]
                       --server_ip SERVER_IP [--server_port SERVER_PORT]
                       --target_fps TARGET_FPS --pixel_ip PIXEL_IP
 
@@ -66,7 +66,7 @@ optional arguments:
 
 ##### Example
 ```bash
-$ python android_zTT.py --app showroom --exp_time 500 --server_ip 192.168.1.24 --target_fps 60 --pixel_ip 192.168.1.35
+$ python client.py --app showroom --exp_time 500 --server_ip 192.168.1.24 --target_fps 60 --pixel_ip 192.168.1.35
 ```
 
 
