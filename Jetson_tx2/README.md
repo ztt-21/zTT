@@ -6,6 +6,7 @@
 $ cd zTT/Jetson_tx2
 $ pip install -r requirements.txt
 ```
+Download other files using this link : https://drive.google.com/file/d/1A5q0qeHseQw1g-3kalZUm5Bh4uk_f0rW/view?usp=sharing
 
 ## Instruction
 
