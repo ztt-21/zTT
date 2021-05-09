@@ -18,7 +18,7 @@ $ pip install -r requirements.txt
 
 ## Instruction
 
-#### 1. Pixel 3a
+### 1. Pixel 3a
  1. Start WiFi-adb and **check your IP address**.
     Note that, you need the IP address for connecting Pixel 3a to the client device.
  2. Start an application on Pixel 3a.
@@ -33,7 +33,7 @@ $ python agent.py
 ### 3. Client device
 Run *android_zTT.py.*
 
-##### Usage of android_zTT.py
+#### Usage of android_zTT.py
 ```
 usage: android_zTT.py [-h] --app {showroom,skype,call} [--exp_time EXP_TIME]
                       --server_ip SERVER_IP [--server_port SERVER_PORT]
@@ -49,7 +49,7 @@ optional arguments:
   --pixel_ip PIXEL_IP           Pixel device IP for connecting device via adb
 ```
 
-##### Example
+#### Example
 ```bash
 $ python android_zTT.py --app showroom --exp_time 500 --server_ip 192.168.1.24 --target_fps 60 --pixel_ip 192.168.1.35
 ```
