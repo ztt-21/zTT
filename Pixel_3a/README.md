@@ -68,23 +68,27 @@ optional arguments:
 
 #### Available applications
 
-* Showroom VR
+* Showroom VR \[1\]
 ##### Example
 ```bash
 $ python client.py --app showroom --exp_time 500 --server_ip 192.168.1.24 --target_fps 60 --pixel_ip 192.168.1.35
 ```
 
-* Skype
+* Skype \[2\]
 ##### Example
 ```bash
 $ python client.py --app skype --exp_time 500 --server_ip 192.168.1.24 --target_fps 60 --pixel_ip 192.168.1.35
 ```
 
-* Call of duty 4
+* Call of duty 4 \[3\]
 ##### Example
 ```bash
 $ python client.py --app call --exp_time 500 --server_ip 192.168.1.24 --target_fps 60 --pixel_ip 192.168.1.35
 ```
 
+## References
 
+\[1\] Little Workshop. WebVR Showroom. https://showroom.littleworkshop.fr/, 2017.
+\[2\] Skype Inc. Skype. https://skype.com/, 2003.
+\[3\] Activision Publishing, Inc., Tencent Games Co., Ltd. Call of duty: Mobile. https://www.callofduty.com/mobile, 2019.
 
