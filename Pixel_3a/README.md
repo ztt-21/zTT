@@ -89,6 +89,8 @@ $ python client.py --app call --exp_time 500 --server_ip 192.168.1.24 --target_f
 ## References
 
 \[1\] Little Workshop. WebVR Showroom. https://showroom.littleworkshop.fr/, 2017.
+
 \[2\] Skype Inc. Skype. https://skype.com/, 2003.
+
 \[3\] Activision Publishing, Inc., Tencent Games Co., Ltd. Call of duty: Mobile. https://www.callofduty.com/mobile, 2019.
 
