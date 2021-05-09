@@ -48,7 +48,7 @@ optional arguments:
 $ python3 client.py --IP_ADDR 192.168.1.7 --app rendering --file video.mp4 --exp_time 2000 --target_fps 30
 ```
 #### YOLOv3
-* We refered YOLOv3 implementation [1] and modifed it to measure and record the FPS.
+* We refered YOLOv3 implementation [1] and modifed it to measure and record the FPS using PIPE.
 * We provide executable files.
 * We also provide "test" file to excute YOLOv3, you need a "traffic.mp4"(Packaged in the .zip file) under the JETSON project directory.
 * Example
