@@ -16,10 +16,6 @@ from PowerLogger.powerlogger import PowerLogger
 from CPU.cpu import CPU
 from GPU.gpu import GPU
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
-
 
 if __name__=="__main__":
 
