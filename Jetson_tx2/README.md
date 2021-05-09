@@ -18,7 +18,7 @@ Run *agent.py.*
 ```bash
 $ python agent.py
 ```
-Ok, agent is watiing for response from client
+# Ok, agent is watiing for response from client
 ### 2. Client device
 * It needs root-privilege to acces "sysfs" in the linux kernel.
 Run *client.py.*
@@ -41,6 +41,7 @@ optional arguments:
 #### Video rendering
 * Requires OPEN CV2 with python 3.5
 * We also provide "video.mp4" file through Googledrive link. It should be under the JETSON project directory.
+* e.g.,
 ```bash
 $ python3 client.py --IP_ADDR 192.168.1.7 --app rendering --file video.mp4 --exp_time 2000 --target_fps 30
 ```
