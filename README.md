@@ -28,5 +28,5 @@ Please follow the detailed instructions in each subdirectory.
 ### Pixel 3a
 * client.py  -  Client code
 * agent.py  -  Agent server code
-* power_on.py - Script to turn on Pixel 3a through Monsoon power monitor
-* power_off.py - Script to turn off Pixel 3a through Monsoon power monitor
+* power_on.py - Script to turn on Pixel 3a through Monsoon power monitor (Run on client)
+* power_off.py - Script to turn off Pixel 3a through Monsoon power monitor (Run on client)
