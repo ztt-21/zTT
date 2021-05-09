@@ -6,20 +6,20 @@
 $ cd zTT/Jetson_tx2
 $ pip install -r requirements.txt
 ```
-Next, please download other files using this link : https://drive.google.com/file/d/1A5q0qeHseQw1g-3kalZUm5Bh4uk_f0rW/view?usp=sharing
+Next, please download two video files using this link(Jetsontx2_video.zip) : https://drive.google.com/file/d/10v1qrFC2N_rlYStoa5qPE6UeEKaN-5FN/view?usp=sharing
 
-Then, unzip the ztt_yolo_video.zip file under "ztt/Jetson_tx2"
+Then, unzip the Jetsontx2_video.zip file under "ztt/Jetson_tx2"
 
 ## Instruction
 
-### 1. Agent server device
+### 1. Agent server device (Server, ubuntu)
 Run *agent.py.*
 
 ```bash
 $ python agent.py
 ```
-#### Ok, agent is watiing for response from client
-### 2. Client device
+#### Ok, the agent is watiing for connections ..
+### 2. Client device (Jetson tx2)
 * It needs root-privilege to acces "sysfs" in the linux kernel.
 Run *client.py.*
 
