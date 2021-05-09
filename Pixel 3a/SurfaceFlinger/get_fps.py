@@ -15,7 +15,6 @@ class SurfaceFlingerFPS():
 		self.recent_timestamps = self.timestamps[-2]
 		self.fps = 0
 		
-
 	def __init_frame_data__(self, view):
 		out = subprocess.check_output(['adb', '-s', self.ip, 'shell', 'dumpsys', 'SurfaceFlinger', '--latency-clear', view])
 		out = out.decode('utf-8')
