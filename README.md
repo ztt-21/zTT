@@ -1,6 +1,7 @@
 # zTT: Learning-based DVFS with Zero Thermal Throttling for Mobile Devices \[*MobiSys'21*\] - Artifact Evaluation
 
 This repository contains all the artifacts necessary to run zTT on NVIDIA Jetson TX2 & Pixel 3a.
+
 Each subdirectory contains the corresponding source codes and instructions to repeat the results of the paper.
 
 ## Requirements
