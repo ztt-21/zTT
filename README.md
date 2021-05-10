@@ -37,9 +37,16 @@ such as mobility and holding methods, but conventional implementations are not a
 
 ### Jetson TX2
 * client.py   -   Client code (Run on Jetson TX2)
-              -   Monitoring CPU/GPU clock frequency, power consumption, temperature and frame rate (fps). (Undert the "Jetson_tx2/Util" directory)
-              -   It sends the above data to agent and 
-* agent.py    -   Agent server code
+              (Repeat)
+              -   Monitoring CPU/GPU clock frequency, power consumption, temperature and frame rate (fps). (Related modules are under "Jetson_tx2/Util" directory)
+              -   Sends the monitored-data to the agent (agent.py) and receive action(CPU/GPU clock frequency)
+              -   Adjust CPU/GPU clock frequency
+* agent.py    -   Agent server code (Run on server). 
+              -   The functions of zTT (Reward def., sample copy, overheating prevention) are included.
+              (Repeat)
+              -   Receive state from client (client.py)
+              -   Train a Deep Q-Network using DQN algorithm.
+              -   Actions are sent to the client
 ### Pixel 3a
 * client.py  -  Client code
 * agent.py  -  Agent server code
