@@ -51,7 +51,7 @@ such as mobility and holding methods, but conventional implementations are not a
 ### Pixel 3a
 * client.py
   * Client code (Run on labtop or desktop with Ubuntu which is connected to Monsoon power monitor)
-  * Monitoring CPU/GPU clock frequency, temperature via adb through WiFi connection ("Pixel_3a/CPU", "Pixel_3a/GPU"), frame rate ("Pixel_3a/SurfaceFlinger") and power consumption by using Monsoon power monitor ("Pixel_3a/PowerLogger" by using PyMonsoon).
+  * Monitoring CPU/GPU clock frequency, temperature via ADB (WiFi connection) ("Pixel_3a/CPU", "Pixel_3a/GPU"), frame rate ("Pixel_3a/SurfaceFlinger") and power consumption by using Monsoon power monitor ("Pixel_3a/PowerLogger" by using PyMonsoon).
   * Sends the monitored-data to the agent (agent.py) and receive action. (CPU/GPU clock frequency)
   * Adjust CPU/GPU clock frequency via adb thorugh WiFi connection.
 * agent.py
