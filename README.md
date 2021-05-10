@@ -37,25 +37,29 @@ such as mobility and holding methods, but conventional implementations are not a
 
 ### Jetson TX2
 * client.py
-  * Client code (Run on Jetson TX2) </br>
-              -   Monitoring CPU/GPU clock frequency, power consumption, temperature and frame rate (fps). (Related modules are under "Jetson_tx2/Util" directory) </br>
-              -   Sends the monitored-data to the agent (agent.py) and receive action (CPU/GPU clock frequency) </br>
-              -   Adjust CPU/GPU clock frequency </br>
-* agent.py    -   Agent server code (Run on server). </br>
-              -   The functions of zTT (Reward def., sample copy, overheating prevention) are included. </br>
-              -   Receive state from client (client.py) </br>
-              -   Train a Deep Q-Network using DQN algorithm. </br>
-              -   Actions are sent to the client </br>
+  * Client code (Run on Jetson TX2)
+  * Monitoring CPU/GPU clock frequency, power consumption, temperature and frame rate (fps). (Related modules are under "Jetson_tx2/Util" directory)
+  * Sends the monitored-data to the agent (agent.py) and receive action (CPU/GPU clock frequency)
+  * Adjust CPU/GPU clock frequency </br>
+* agent.py
+  * Agent server code (Run on server).
+  * The functions of zTT (Reward def., sample copy, overheating prevention) are included.
+  * Receive state from client. (client.py)
+  * Train a Deep Q-Network using DQN algorithm.
+  * Actions are sent to the client.
+  
 ### Pixel 3a
-* client.py  -  Client code (Run on labtop or desktop with Ubuntu which is connected to Monsoon power monitor) </br>
-             -  Monitoring CPU/GPU clock frequency, temperature via adb through WiFi connection ("Pixel_3a/CPU", "Pixel_3a/GPU"), frame rate ("Pixel_3a/SurfaceFlinger") and power consumption by using Monsoon power monitor ("Pixel_3a/PowerLogger" by using PyMonsoon). </br>
-             -  Sends the monitored-data to the agent (agent.py) and receive action (CPU/GPU clock frequency) </br>
-             -  Adjust CPU/GPU clock frequency via adb thorugh WiFi connection. </br>
-* agent.py  -  Agent server code (Run on server). </br>
-            -   The functions of zTT (Reward def., sample copy, overheating prevention) are included. </br>
-            -   Receive state from client (client.py) </br>
-            -   Train a Deep Q-Network using DQN algorithm. </br>
-            -   Actions are sent to the client </br>
+* client.py
+  * Client code (Run on labtop or desktop with Ubuntu which is connected to Monsoon power monitor)
+  * Monitoring CPU/GPU clock frequency, temperature via adb through WiFi connection ("Pixel_3a/CPU", "Pixel_3a/GPU"), frame rate ("Pixel_3a/SurfaceFlinger") and power consumption by using Monsoon power monitor ("Pixel_3a/PowerLogger" by using PyMonsoon).
+  * Sends the monitored-data to the agent (agent.py) and receive action. (CPU/GPU clock frequency)
+  * Adjust CPU/GPU clock frequency via adb thorugh WiFi connection.
+* agent.py
+  * Agent server code (Run on server).
+  * The functions of zTT (Reward def., sample copy, overheating prevention) are included.
+  * Receive state from client. (client.py)
+  * Train a Deep Q-Network using DQN algorithm.
+  * Actions are sent to the client.
 * power_on.py - Script to turn on Pixel 3a through Monsoon power monitor (Run on client)
 * power_off.py - Script to turn off Pixel 3a through Monsoon power monitor (Run on client)
 
