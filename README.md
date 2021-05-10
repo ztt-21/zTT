@@ -37,19 +37,24 @@ such as mobility and holding methods, but conventional implementations are not a
 
 ### Jetson TX2
 * client.py   -   Client code (Run on Jetson TX2) </br>
-              (Repeat) </br>
               -   Monitoring CPU/GPU clock frequency, power consumption, temperature and frame rate (fps). (Related modules are under "Jetson_tx2/Util" directory) </br>
-              -   Sends the monitored-data to the agent (agent.py) and receive action(CPU/GPU clock frequency) </br>
+              -   Sends the monitored-data to the agent (agent.py) and receive action (CPU/GPU clock frequency) </br>
               -   Adjust CPU/GPU clock frequency </br>
 * agent.py    -   Agent server code (Run on server). </br>
               -   The functions of zTT (Reward def., sample copy, overheating prevention) are included. </br>
-              (Repeat) </br>
               -   Receive state from client (client.py) </br>
               -   Train a Deep Q-Network using DQN algorithm. </br>
               -   Actions are sent to the client </br>
 ### Pixel 3a
-* client.py  -  Client code
-* agent.py  -  Agent server code
+* client.py  -  Client code (Run on labtop or desktop with Ubuntu which is connected to Monsoon power monitor) </br>
+             -  Monitoring CPU/GPU clock frequency, temperature via adb through WiFi connection ("Pixel_3a/CPU", "Pixel_3a/GPU"), frame rate ("Pixel_3a/SurfaceFlinger") and power consumption by using Monsoon power monitor ("Pixel_3a/PowerLogger" by using PyMonsoon). </br>
+             -  Sends the monitored-data to the agent (agent.py) and receive action (CPU/GPU clock frequency) </br>
+             -  Adjust CPU/GPU clock frequency via adb thorugh WiFi connection. </br>
+* agent.py  -  Agent server code (Run on server). </br>
+            -   The functions of zTT (Reward def., sample copy, overheating prevention) are included. </br>
+            -   Receive state from client (client.py) </br>
+            -   Train a Deep Q-Network using DQN algorithm. </br>
+            -   Actions are sent to the client </br>
 * power_on.py - Script to turn on Pixel 3a through Monsoon power monitor (Run on client)
 * power_off.py - Script to turn off Pixel 3a through Monsoon power monitor (Run on client)
 
