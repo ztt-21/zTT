@@ -37,7 +37,7 @@ such as mobility and holding methods, but conventional implementations are not a
 
 ### Jetson TX2
 * client.py   -   Client code (Run on Jetson TX2)
-              -   Monitoring CPU/GPU clock frequency, power consumption, temperature and frame rate (fps). (Undert the "/Util" directory)
+              -   Monitoring CPU/GPU clock frequency, power consumption, temperature and frame rate (fps). (Undert the "Jetson_tx2/Util" directory)
               -   It sends the above data to agent and 
 * agent.py    -   Agent server code
 ### Pixel 3a
