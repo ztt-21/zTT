@@ -36,11 +36,11 @@ such as mobility and holding methods, but conventional implementations are not a
 ## Contents
 
 ### Jetson TX2
-* client.py   -   Client code (Run on Jetson TX2)
-              (Repeat)
-              -   Monitoring CPU/GPU clock frequency, power consumption, temperature and frame rate (fps). (Related modules are under "Jetson_tx2/Util" directory)
-              -   Sends the monitored-data to the agent (agent.py) and receive action(CPU/GPU clock frequency)
-              -   Adjust CPU/GPU clock frequency
+* client.py   -   Client code (Run on Jetson TX2) </br>
+              (Repeat) </br>
+              -   Monitoring CPU/GPU clock frequency, power consumption, temperature and frame rate (fps). (Related modules are under "Jetson_tx2/Util" directory) </br>
+              -   Sends the monitored-data to the agent (agent.py) and receive action(CPU/GPU clock frequency) </br>
+              -   Adjust CPU/GPU clock frequency </br>
 * agent.py    -   Agent server code (Run on server). 
               -   The functions of zTT (Reward def., sample copy, overheating prevention) are included.
               (Repeat)
