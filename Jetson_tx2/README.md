@@ -10,11 +10,11 @@ $ pip install -r requirements.txt
 Next, please download two video files using this link(Jetsontx2_video.zip) : https://drive.google.com/file/d/10v1qrFC2N_rlYStoa5qPE6UeEKaN-5FN/view?usp=sharing
 
 </br>Then, unzip the Jetsontx2_video.zip file under "ztt/Jetson_tx2" </br>
-#### Util/CPU.PY : CPU monitoring (clock frequency, temperature power consumption) and CPU DVFS module
-#### Util/GPU.PY : GPU monitoring (clock frequency, temperature power consumption) and GPU DVFS module
-#### Util/PowerLogger.PY : Used by CPU.py add GPU.py to monitor the power consumption
-#### Util/SYSTEM.PY : Monitor total power consumption and memory power consumption. Includes a module to control an external CPU FAN.
-#### Util/FPSDriver.py, chromedriver : Module to monitor the fps of chrome-based web application.
+* Util/CPU.PY : CPU monitoring (clock frequency, temperature power consumption) and CPU DVFS module
+* Util/GPU.PY : GPU monitoring (clock frequency, temperature power consumption) and GPU DVFS module
+* Util/PowerLogger.PY : Used by CPU.py add GPU.py to monitor the power consumption
+* Util/SYSTEM.PY : Monitor total power consumption and memory power consumption. Includes a module to control an external CPU FAN.
+* Util/FPSDriver.py, chromedriver : Module to monitor the fps of chrome-based web application.
 ## Instruction
 
 ### 1. Agent server device (Server, ubuntu)
